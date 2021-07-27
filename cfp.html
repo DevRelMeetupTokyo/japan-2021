@@ -65,40 +65,84 @@ layout: home
                         <div class="inner">
                             <div class="inner_box parallax" style="width:60%;margin:auto;background:#ffffff;border:10px solid #ff2d54;padding:50px;" data-stellar-ratio="1.2">
                                 <h2 class="ppb_title" style="color:#000000;">プロポーザルを書く</h2>
-                                <div class="page_tagline" style="">*がないものはオプションです</div>
+                                <div class="page_tagline">*があるものは必須です</div>
                                 <div class="contact_form7_wrapper">
                                     <div role="form" class="wpcf7" id="wpcf7-f5-o1" lang="en-US" dir="ltr">
                                         <div class="screen-reader-response"></div>
-                                            <form class="quform" action="http://max-themes.net/demos/grandconference/js/plugins/quform/process.php" method="post" enctype="multipart/form-data" onclick="">
-
+                                            <form class="quform cfp">
                                                 <div class="quform-elements">
                                                     <div class="quform-element">
-                                                        
-                                                            <br>
-                                                            <span class="wpcf7-form-control-wrap your-name">
-                                                                <input id="name" type="text" name="name" size="40" class="input1" aria-required="true" aria-invalid="false" placeholder="Name*">
-                                                            </span> 
-                                                        
+                                                        <br>
+                                                        <span class="wpcf7-form-control-wrap your-name">
+                                                            <input id="name" type="text" name="name" size="40" class="input1 remember" aria-required="true" aria-invalid="false" placeholder="名前*" required>
+                                                        </span> 
                                                     </div>
                                                     <div class="quform-element">
-                                                        
-                                                            <br>
-                                                            <span class="wpcf7-form-control-wrap your-email">
-                                                                <input id="email" type="text" name="email" size="40" class="input1" aria-required="true" aria-invalid="false" placeholder="Email*">
-                                                            </span> 
-                                                        
+                                                        <br>
+                                                        <span class="wpcf7-form-control-wrap your-name">
+                                                            <input id="company" type="text" name="company" size="40" class="input1 remember" aria-required="true" aria-invalid="false" placeholder="企業/団体名*" required>
+                                                        </span> 
+                                                    </div>
+                                                    <div class="quform-element">
+                                                        <br>
+                                                        <span class="wpcf7-form-control-wrap your-name">
+                                                            <input id="your_title" type="text" name="your_title" size="40" class="input1 remember" aria-required="true" aria-invalid="false" placeholder="肩書き">
+                                                        </span> 
+                                                    </div>
+                                                    <div class="quform-element">
+                                                        <br>
+                                                        <span class="wpcf7-form-control-wrap your-email">
+                                                            <input id="email" type="text" name="email" size="40" class="input1 remember" aria-required="true" aria-invalid="false" placeholder="メールアドレス*" required>
+                                                        </span> 
+                                                    </div>
+                                                    <div class="quform-element">
+                                                        <br>
+                                                        <span class="wpcf7-form-control-wrap your-email">
+                                                            <input id="title" type="text" name="title" size="40" class="input1 remember remove" aria-required="true" aria-invalid="false" placeholder="セッションタイトル*" required>
+                                                        </span> 
                                                     </div>
                                                     <div class="quform-element">
                                                         
                                                             <br>
                                                             <span class="wpcf7-form-control-wrap your-message">
-                                                                <textarea  id="message" name="message" cols="40" rows="10" class="input1" aria-invalid="false" placeholder="Message*"></textarea>
+                                                                <textarea  id="summary" name="summary" cols="40" rows="5" class="input1 remember remove" aria-invalid="false" placeholder="セッション概要*" required></textarea>
                                                             </span>
                                                         
                                                     </div>
+                                                    <div class="quform-element">
+                                                        
+                                                        <br>
+                                                        <span class="wpcf7-form-control-wrap your-message">
+                                                            <textarea  id="description" name="description" cols="40" rows="10" class="input1 remember remove" aria-invalid="false" placeholder="セッション詳細（Markdownが使えます）*" required></textarea>
+                                                        </span>
                                                     
+                                                </div>
+                                                <div class="quform-element">
+                                                    <br>
+                                                    <span class="wpcf7-form-control-wrap your-message">
+                                                        <textarea  id="note" name="note" cols="40" rows="5" class="input1 remember remove" aria-invalid="false" placeholder="追記事項があれば"></textarea>
+                                                    </span>
+                                                
+                                            </div>
+                                            
                                                     <!-- Begin Submit button -->
                                                     <div class="quform-submit">
+                                                        <div id="15738992061086418370" class="alert_box success hide"><i class="fa fa-flag alert_icon"></i>
+                                                            <div class="alert_box_msg">
+                                                                プロポーザルを提出しました！
+                                                            </div>
+                                                            <a href="#" class="close_alert" data-target="15738992061086418370">
+                                                                <i class="fa fa-times"></i>
+                                                            </a>
+                                                        </div>
+                                                        <div id="15738992061086418371" class="alert_box error hide"><i class="fa fa-flag alert_icon"></i>
+                                                            <div class="alert_box_msg">
+                                                                エラーが発生しました。しばらくお待ちください。
+                                                            </div>
+                                                            <a href="#" class="close_alert" data-target="15738992061086418371">
+                                                                <i class="fa fa-times"></i>
+                                                            </a>
+                                                        </div>
                                                         <div class="quform-submit-inner">
                                                             <button type="submit" class="submit-button"><span>CFPを送る（作成中）</span></button>
                                                         </div>
@@ -115,5 +159,4 @@ layout: home
                 </div>
             </div>
         </div>
-
         {% include footer.html %}
