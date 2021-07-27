@@ -24,5 +24,44 @@
     "linkedin": "https://www.linkedin.com/in/goofmint/",
     "profile_ja": "株式会社MOONGIFT代表取締役。ニフクラ mobile backend エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。",
     "company": "MOONGIFT"
+  },
+  {
+    "id": "yasunori",
+    "type": "member",
+    "name": "木原 康智",
+    "title": "",
+    "url": "",
+    "twitter": "https://twitter.com/yasunori_k_",
+    "github": "",
+    "facebook": "https://www.facebook.com/ysnrk",
+    "linkedin": "https://www.linkedin.com/in/ysnrkr/",
+    "profile_ja": "株式会社はてな",
+    "company": "はてな"
+  },
+  {
+    "id": "neri78",
+    "type": "member",
+    "name": "池原 大然",
+    "title": "Developer Evangelist",
+    "url": "https://www.pondfield.com",
+    "twitter": "https://twitter.com/neri78",
+    "github": "https://github.com/neri78",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/daizenikehara/",
+    "profile_ja": "Twilio",
+    "company": "Twilio"
+  },
+  {
+    "id": "odasho",
+    "type": "member",
+    "name": "おだしょー",
+    "title": "Developer Marketing Manager/Evangelist",
+    "url": "https://azure.microsoft.com/ja-jp/",
+    "twitter": "https://twitter.com/MS_odasho",
+    "github": "https://github.com/odasho0618",
+    "facebook": "https://www.facebook.com/odasho0618/",
+    "linkedin": "https://www.linkedin.com/in/odasho/",
+    "profile_ja": "日本マイクロソフト株式会社",
+    "company": "Microsoft"
   }
 ]
