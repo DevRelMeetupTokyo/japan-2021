@@ -79,15 +79,15 @@
   },
   {
     "id": "Journeyman",
-    "type": "",
+    "type": "member",
     "name": "ジャニ",
     "title": "togetterまとめ職人",
     "url": "",
-    "twitter": "",
+    "twitter": "https://twitter.com/beajourneyman",
     "github": "",
     "facebook": "",
     "linkedin": "",
     "profile_ja": "",
-    "company": ""
+    "company": "個人"
   }
 ]
