@@ -10,7 +10,8 @@
     "facebook": "https://fb.me/devreltokyo",
     "linkedin": "",
     "profile_ja": "",
-    "company": ""
+    "company": "",
+    "": ""
   },
   {
     "id": "atsushi",
@@ -23,7 +24,8 @@
     "facebook": "https://fb.me/goofmint",
     "linkedin": "https://www.linkedin.com/in/goofmint/",
     "profile_ja": "株式会社MOONGIFT代表取締役。ニフクラ mobile backend エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。",
-    "company": "MOONGIFT"
+    "company": "MOONGIFT",
+    "": ""
   },
   {
     "id": "yasunori",
@@ -36,7 +38,8 @@
     "facebook": "https://www.facebook.com/ysnrk",
     "linkedin": "https://www.linkedin.com/in/ysnrkr/",
     "profile_ja": "株式会社はてな",
-    "company": "はてな"
+    "company": "はてな",
+    "": ""
   },
   {
     "id": "neri78",
@@ -49,7 +52,8 @@
     "facebook": "",
     "linkedin": "https://www.linkedin.com/in/daizenikehara/",
     "profile_ja": "Twilio",
-    "company": "Twilio"
+    "company": "Twilio",
+    "": ""
   },
   {
     "id": "odasho",
@@ -62,7 +66,8 @@
     "facebook": "https://www.facebook.com/odasho0618/",
     "linkedin": "https://www.linkedin.com/in/odasho/",
     "profile_ja": "日本マイクロソフト株式会社",
-    "company": "Microsoft"
+    "company": "Microsoft",
+    "": ""
   },
   {
     "id": "jun",
@@ -75,7 +80,8 @@
     "facebook": "https://www.facebook.com/junya.ishioka.1",
     "linkedin": "https://www.linkedin.com/in/junya-ishioka/",
     "profile_ja": "Hokkaido MotionControl Network(#DoMCN)のお知らせ担当。",
-    "company": "個人"
+    "company": "個人",
+    "": ""
   },
   {
     "id": "journeyman",
@@ -88,6 +94,7 @@
     "facebook": "",
     "linkedin": "",
     "profile_ja": "",
-    "company": ""
+    "company": "",
+    "": "togetterのまとめリンクを載せたい"
   }
 ]
