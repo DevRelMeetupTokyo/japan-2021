@@ -1,28 +1,4 @@
-[
-  {
-    "id": "devrelmeetup",
-    "type": "group",
-    "name": "DevRel Meetup in Tokyo",
-    "title": "主催者",
-    "url": "https://devrel.tokyo/",
-    "twitter": "https://twitter.com/devrelTokyo",
-    "github": "",
-    "facebook": "https://fb.me/devreltokyo",
-    "linkedin": "",
-    "profile_ja": "",
-    "company": "",
-    "": ""
-  },
-  {
-    "id": "atsushi",
-    "type": "member",
-    "name": "アツシ",
-    "title": "CEO",
-    "url": "https://moongift.co.jp/",
-    "twitter": "https://twitter.com/goofmint_ja",
-    "github": "https://github.com/goofmint",
-    "facebook": "https://fb.me/goofmint",
-    "linkedin": "https://www.linkedin.com/in/goofmint/",
+<!DOCTYPE html><html><head><link rel="shortcut icon" href="//ssl.gstatic.com/docs/script/images/favicon.ico"><title>エラー</title><style type="text/css" nonce="ZL9FeafNax1ThIuMxANzBw">body {background-color: #fff; margin: 0; padding: 0;}.errorMessage {font-family: Arial,sans-serif; font-size: 12pt; font-weight: bold; line-height: 150%; padding-top: 25px;}</style></head><body style="margin:20px"><div><img alt="Google Apps Script" src="//ssl.gstatic.com/docs/script/images/logo.png"></div><div style="text-align:center;font-family:monospace;margin:50px auto 0;max-width:600px">起動時間の最大値を超えました</div></body></html>din.com/in/goofmint/",
     "profile_ja": "株式会社MOONGIFT代表取締役。ニフクラ mobile backend エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。",
     "company": "MOONGIFT",
     "": ""
