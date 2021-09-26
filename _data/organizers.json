@@ -102,13 +102,27 @@
     "type": "member",
     "name": "近藤佑子",
     "title": "CodeZine編集長",
-    "url": "",
+    "url": "https://kondoyuko.com/",
     "twitter": "",
     "github": "",
     "facebook": "",
     "linkedin": "",
     "profile_ja": "",
     "company": "翔泳社",
+    "": ""
+  },
+  {
+    "id": "iganari",
+    "type": "member",
+    "name": "五十嵐透",
+    "title": "SRE",
+    "url": "",
+    "twitter": "",
+    "github": "",
+    "facebook": "",
+    "linkedin": "",
+    "profile_ja": "",
+    "company": "",
     "": ""
   }
 ]
