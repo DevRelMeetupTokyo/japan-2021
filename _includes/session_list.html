@@ -1,0 +1,19 @@
+<div class="ppb_speaker_classic one nopadding ">
+  <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
+      <div id="15738080891426664581" data-columns="{{ include.session.people }}">
+        {% assign person = site.data.speakers | find: "id", include.session.moderator %}
+        {% include session_list_one.html role="モデレーター" person=person num=include.session.people %}
+        {% assign person = site.data.speakers | find: "id", include.session.panelist1 %}
+        {% include session_list_one.html role="パネリスト" person=person num=include.session.people %}
+        {% assign person = site.data.speakers | find: "id", include.session.panelist2 %}
+        {% include session_list_one.html role="パネリスト" person=person num=include.session.people %}
+        {% assign person = site.data.speakers | find: "id", include.session.panelist3 %}
+        {% include session_list_one.html role="パネリスト" person=person num=include.session.people %}
+        {% if include.session.people == "5" %}
+            {% assign person = site.data.speakers | find: "id", include.session.panelist4 %}
+          {% include session_list_one.html role="パネリスト" person=person num=include.session.people %}
+        {% endif %}
+        <br class="clear" />
+    </div>
+  </div>
+</div>

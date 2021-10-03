@@ -1,38 +1,38 @@
-<script src='js/jquery.js'></script>
-<script src='js/jquery-migrate.min.js'></script>
-<script src='js/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
-<script src='js/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
-<script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
-<script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
-<script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
+<script src="/japan-2021/js/jquery.js"></script>
+<script src="/japan-2021/js/jquery-migrate.min.js"></script>
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
+<script src="/japan-2021/js/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
 
-<script src='js/plugins/ui/core.min.js'></script>
-<script src='js/plugins/jquery.requestAnimationFrame.js'></script>
-<script src='js/plugins/ilightbox.packed.js'></script>
-<script src='js/plugins/jquery.easing.js'></script>
-<script src='js/plugins/waypoints.min.js'></script>
-<script src='js/plugins/jquery.isotope.js'></script>
-<script src='js/plugins/jquery.masory.js'></script>
-<script src='js/plugins/jquery.tooltipster.min.js'></script>
-<script src='js/plugins/jarallax.js'></script>
-<script src='js/plugins/jquery.sticky-kit.min.js'></script>
-<script src='js/plugins/jquery.stellar.min.js'></script>
-<script src='js/plugins/jquery.cookie.js'></script>
-<script src='js/plugins/custom_plugins.js'></script>
-<script src='js/plugins/custom.js'></script>
-<script src='js/plugins/custom_onepage.js'></script>
-<script src='js/plugins/jquery.countdown.js'></script>
-<script src='js/plugins/imagesloaded.min.js'></script>
-<script src='js/plugins/masonry.min.js'></script>
-<script src='js/plugins/jarallax-video.js'></script>
-<script src='js/plugins/jquery.cookie.js'></script>
-<script src='js/plugins/custom_clock.js'></script>
-<script src="./assets/js/ncmb.min.js"></script>
-<script src="./assets/js/app.js"></script>
+<script src="/japan-2021/js/plugins/ui/core.min.js"></script>
+<script src="/japan-2021/js/plugins/jquery.requestAnimationFrame.js"></script>
+<script src="/japan-2021/js/plugins/ilightbox.packed.js"></script>
+<script src="/japan-2021/js/plugins/jquery.easing.js"></script>
+<script src="/japan-2021/js/plugins/waypoints.min.js"></script>
+<script src="/japan-2021/js/plugins/jquery.isotope.js"></script>
+<script src="/japan-2021/js/plugins/jquery.masory.js"></script>
+<script src="/japan-2021/js/plugins/jquery.tooltipster.min.js"></script>
+<script src="/japan-2021/js/plugins/jarallax.js"></script>
+<script src="/japan-2021/js/plugins/jquery.sticky-kit.min.js"></script>
+<script src="/japan-2021/js/plugins/jquery.stellar.min.js"></script>
+<script src="/japan-2021/js/plugins/jquery.cookie.js"></script>
+<script src="/japan-2021/js/plugins/custom_plugins.js"></script>
+<script src="/japan-2021/js/plugins/custom.js"></script>
+<script src="/japan-2021/js/plugins/custom_onepage.js"></script>
+<script src="/japan-2021/js/plugins/jquery.countdown.js"></script>
+<script src="/japan-2021/js/plugins/imagesloaded.min.js"></script>
+<script src="/japan-2021/js/plugins/masonry.min.js"></script>
+<script src="/japan-2021/js/plugins/jarallax-video.js"></script>
+<script src="/japan-2021/js/plugins/jquery.cookie.js"></script>
+<script src="/japan-2021/js/plugins/custom_clock.js"></script>
+<script src="/japan-2021/./assets/js/ncmb.min.js"></script>
+<script src="/japan-2021/./assets/js/app.js"></script>
 
 <script>
     /* <![CDATA[ */
@@ -76,34 +76,34 @@
             if (element.addEventListener) {
                 element.addEventListener(event, handler, false);
             } else if (element.attachEvent) {
-                element.attachEvent('on' + event, handler);
+                element.attachEvent("on" + event, handler);
             }
         }
 
         function maybePrefixUrlField() {
-            if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+            if (this.value.trim() !== "" && this.value.indexOf("http") !== 0) {
                 this.value = "http://" + this.value;
             }
         }
 
-        var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+        var urlFields = document.querySelectorAll(".mc4wp-form input[type="url"]");
         if (urlFields && urlFields.length > 0) {
             for (var j = 0; j < urlFields.length; j++) {
-                addEventListener(urlFields[j], 'blur', maybePrefixUrlField);
+                addEventListener(urlFields[j], "blur", maybePrefixUrlField);
             }
         } /* test if browser supports date fields */
-        var testInput = document.createElement('input');
-        testInput.setAttribute('type', 'date');
-        if (testInput.type !== 'date') {
+        var testInput = document.createElement("input");
+        testInput.setAttribute("type", "date");
+        if (testInput.type !== "date") {
 
             /* add placeholder & pattern to all date fields */
-            var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+            var dateFields = document.querySelectorAll(".mc4wp-form input[type="date"]");
             for (var i = 0; i < dateFields.length; i++) {
                 if (!dateFields[i].placeholder) {
-                    dateFields[i].placeholder = 'YYYY-MM-DD';
+                    dateFields[i].placeholder = "YYYY-MM-DD";
                 }
                 if (!dateFields[i].pattern) {
-                    dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+                    dateFields[i].pattern = "[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])";
                 }
             }
         }
@@ -116,7 +116,7 @@
         errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
         errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
         errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-        errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+        errorMessage = "<span style="font-size:16px;color:#BC0C06;">" + errorMessage + "</span>";
         jQuery(sliderID).show().html(errorMessage);
     }
 </script>    
@@ -133,10 +133,10 @@
 </script>
 <script type="text/javascript">
     setREVStartSize({
-        c: jQuery('#rev_slider_1_1'),
+        c: jQuery("#rev_slider_1_1"),
         gridwidth: [1240],
         gridheight: [800],
-        sliderLayout: 'fullwidth'
+        sliderLayout: "fullwidth"
     });
 
     var revapi1,
@@ -183,13 +183,13 @@
     }); /*ready*/
 </script>
 <script>
-    var htmlDivCss = '	#rev_slider_1_1_wrapper .tp-loader.spinner3 div { background-color: #ff2d55 !important; } ';
-    var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+    var htmlDivCss = "	#rev_slider_1_1_wrapper .tp-loader.spinner3 div { background-color: #ff2d55 !important; } ";
+    var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
     if (htmlDiv) {
         htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
     } else {
-        var htmlDiv = document.createElement('div');
-        htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
-        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+        var htmlDiv = document.createElement("div");
+        htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+        document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
     }
 </script>

@@ -1,0 +1,19 @@
+<div class="element grid {% if include.num == "4" %}one_fourth_bg{% else %}one_fifth_bg{% endif %}" style="text-align: center;">
+  <h3>{{ include.role }}</h3>
+  {% if include.person %}
+    <a class="speaker_grid_link" href="/japan-2021/speakers/{{ include.person.id }}">
+      <img src="/japan-2021/assets/images/speakers/{{ include.person.id }}.jpg" alt="{{ include.person.name }}" />
+    </a>
+    <div class="speaker_info_wrapper">
+        <h4>{{ include.person.name }}</h4>
+        <div class="speaker_desc">{{ include.person.company }}</div>
+    </div>
+  {% else %}
+    <a class="speaker_grid_link" href="#" style="pointer-events: none;">
+      <img src="/japan-2021/assets/images/speakers/none.png" alt="後日アナウンス！" />
+    </a>
+    <div class="speaker_info_wrapper">
+        <h4>間もなくアナウンス！</h4>
+    </div>
+  {% endif %}
+</div>
