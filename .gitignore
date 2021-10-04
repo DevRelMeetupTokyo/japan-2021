@@ -6,3 +6,4 @@ vendor
 .DS_Store
 upload/
 getData.sh
+node_modules

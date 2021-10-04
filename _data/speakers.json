@@ -702,5 +702,37 @@
     "web": "",
     "linkedin": "",
     "instagram": ""
+  },
+  {
+    "id": "junichi",
+    "company": "Shopify",
+    "name": "岡村 純一",
+    "title": "シニアテクニカルパートナーマネージャー",
+    "profile": "コマースプラットフォームShopifyのパートナーのストアデザインやアプリ開発、決済連携、事業開拓などの技術的な支援を担当し、エコシステム拡大の施策を行っている。プライベートでは、システム開発や技術コンサル、ドキュメント作成などの仕事も請け負う。現在SF小説の執筆とそのグッズショップをShopifyで準備中。",
+    "session": "foreign-devrel",
+    "moderator": "",
+    "panelist": "true",
+    "twitter": "https://twitter.com/benzookapi",
+    "github": "",
+    "facebook": "",
+    "web": "",
+    "linkedin": "https://www.linkedin.com/in/junichiokamura/",
+    "instagram": ""
+  },
+  {
+    "id": "arisa",
+    "company": "Storyblok",
+    "name": "福﨑 有彩",
+    "title": "Developer Relations Engineer",
+    "profile": "元エミレーツ航空客室乗務員。2017年に独学でフロントエンドエンジニアとして開発業務を始め、3つのプログラミングスクールでメンター講師を勤める。GatsbyConf 2021で初登壇し、現在はドイツからフルリモートで、オーストリア発祥SaaSスタートアップ企業、ヘッドレスCMSのStoryblokでDeveloper Relations Engineerをしている。GirlCodeアンバサダー、Front-End Foxes Schoolメンターでもあり、テックスキル、知見シェアコミュニティLilac（ライレック）の運営者として、オンラインイベントの定期開催も行う。",
+    "session": "foreign-devrel",
+    "moderator": "",
+    "panelist": "true",
+    "twitter": "https://twitter.com/arisa_dev",
+    "github": "https://github.com/schabibi1",
+    "facebook": "",
+    "web": "https://arisa-fukuzaki.dev/",
+    "linkedin": "https://www.linkedin.com/in/%F0%9F%A5%8B-arisa-fukuzaki-b68b51a8/",
+    "instagram": ""
   }
 ]
