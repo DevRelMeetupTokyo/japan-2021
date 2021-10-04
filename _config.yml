@@ -24,7 +24,7 @@ url: https://devrel.tokyo/japan-2021/
 description: >- # this means to ignore newlines until "baseurl:"
   DevRel/Japan CONFERENCE 2021は日本唯一の日本語によるDevRelカンファレンスです。開発者向けマーケティング、
   コミュニティ、開発者体験、ドキュメンテーションなどの知見が共有されます
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/japan-2021" # the subpath of your site, e.g. /blog
 twitter_username: jekyllrb
 github_username:  jekyll
 

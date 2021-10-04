@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US" data-menu="leftalign">
+<!-- grandconference/  22 Nov 2019 03:46:25 GMT -->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <title>{{ page.speaker }} - {{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ site.url }}assets/images/ogp/{{ page.id }}.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ page.speaker }} - {{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:card" content="Summary with Large Image" />
+    <meta name="twitter:site" content="@DevRelTokyo" />
+    {% include css.html %}
+</head>
+
+{% assign speaker = site.data.speakers | find: "id", page.id %}
+
+<body class="speaker-template-default single single-speaker postid-138 woocommerce-no-js">
+    {% include hidden.html %}
+    {% include header_menu.html %}
+    
+    <div id="page_caption" class="  ">
+        <div class="page_title_wrapper">
+            <div class="standard_wrapper">
+                <div class="speaker_thumbnail"><img src="/japan-2021/assets/images/speakers/{{ speaker.id }}.jpg" alt="" /></div>
+                <div class="page_title_inner">
+                    <div class="page_title_content">
+                        <h1>{{ speaker.name }}</h1>
+                        <div class="page_tagline">
+                            {{ speaker.title }} at {{ speaker.company }}</div>
+                        {% if speaker.web != "" %}
+                        <div class="speaker_website">
+                            <a href="{{ speaker.web }}"><span class="ti-link"></span>&nbsp;{{ speaker.web }}</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <br class="clear" />
+            </div>
+        </div>
+    </div>
+    <div id="page_content_wrapper">
+        <div class="inner">
+            <!-- Begin main content -->
+            <div class="inner_wrapper">
+                <div class="sidebar_content full_width">
+                    <!-- Begin each post -->
+                    <div id="post-138" class="post-138 speaker type-speaker status-publish has-post-thumbnail hentry">
+                        <div class="post_wrapper">
+                            <div class="post_content_wrapper">
+                                {{ speaker.profile | markdownify }}
+                                <div class="speaker_social">
+                                    <h4>ソーシャルプロフィール</h4>
+                                    <div class="social_wrapper shortcode">
+                                        <ul>
+                                            {% if speaker.twitter != "" %}
+                                                <li class="twitter">
+                                                    <a title="Twitter" target="_blank" class="tooltip" href="{{ speaker.twitter }}">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                            {% endif %}
+                                            {% if speaker.facebook != "" %}
+                                            <li class="facebook">
+                                                <a title="Facebook" target="_blank" class="tooltip" href="{{ speaker.facebook }}">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            {% endif %}
+                                            {% if speaker.linkedin != "" %}
+                                            <li class="linkedin">
+                                                <a title="Linkedin" target="_blank" class="tooltip" href="{{ speaker.linkedin }}">
+                                                    <i class="fab fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                            {% endif %}
+                                            {% if speaker.github != "" %}
+                                            <li class="github">
+                                                <a title="GitHub" target="_blank" class="tooltip" href="{{ speaker.github }}">
+                                                    <i class="fab fa-github"></i>
+                                                </a>
+                                            </li>
+                                            {% endif %}
+                                            {% if speaker.instagram != "" %}
+                                            <li class="instagram">
+                                                <a title="GitHub" target="_blank" class="tooltip" href="{{ speaker.instagram }}">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                            {% endif %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End each post -->
+                    {% assign session = site.data.sessions | find: "id", speaker.session %}
+                    <div class="speaker_session_wrapper themeborder">
+                        <h2 class="title">セッション: {{ session.theme }}</h2>
+                        {% include session_list.html session=session %}
+                    </div>
+                </div>
+            </div>
+            <!-- End main content -->
+        </div>
+        <br class="clear" />
+        <br/>
+    </div>
+    {% include footer.html %}
+    {% include script.html %}
+</body>
+</html>

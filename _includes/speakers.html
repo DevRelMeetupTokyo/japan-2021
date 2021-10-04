@@ -1,100 +1,33 @@
-<div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:20px;margin-bottom:60px;">
-  <div class="standard_wrapper">
-      <div class="page_content_wrapper">
-          <div class="inner">
-              <div style="margin:auto;width:100%">
-                  <h2 class="ppb_title" style=";text-align:center;">Our Speakers</h2>
-                  <div class="page_tagline" style=";text-align:center;">This is sample of page tagline and you can set it up using page option</div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-<div class="ppb_speaker_grid one nopadding ">
-  <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
-      <div id="1573568515856366234" data-columns="5">
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-211050-500x500.jpg" alt="John Doe" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>John Doe</h4>
-                      <div class="speaker_desc">Founder Envato</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-25845-500x500.jpg" alt="Joanna Smith" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Joanna Smith</h4>
-                      <div class="speaker_desc">VP Design Apple</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-175696-500x500.jpg" alt="Luis Gallop" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Luis Gallop</h4>
-                      <div class="speaker_desc">Head Engineering Dell</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-295821-500x500.jpg" alt="Katie Stricker" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Katie Stricker</h4>
-                      <div class="speaker_desc">Co-founder Blackbox</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-69212-500x500.jpg" alt="Espen Brunberg" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Espen Brunberg</h4>
-                      <div class="speaker_desc">Web Technologist</div>
-                  </div>
-              </a>
-          </div>
-          <br class="clear">
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-211048-500x500.jpg" alt="Kevin Chase" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Kevin Chase</h4>
-                      <div class="speaker_desc">Chairman Tesla</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-285171-500x500.jpg" alt="Piera Mcclure" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Piera Mcclure</h4>
-                      <div class="speaker_desc">Creative Director Slack</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-199943-500x500.jpg" alt="Robin Johnson" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Robin Johnson</h4>
-                      <div class="speaker_desc">VP Design Microsoft</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-241734-500x500.jpg" alt="Jeff Robins" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Jeff Robins</h4>
-                      <div class="speaker_desc">Partner Startup</div>
-                  </div>
-              </a>
-          </div>
-          <div class="element grid one_fifth_bg">
-              <a class="speaker_grid_link" href="#"><img src="upload/pexels-photo-289704-500x500.jpg" alt="Danielle Ahn" class="">
-                  <div class="speaker_info_wrapper">
-                      <h4>Danielle Ahn</h4>
-                      <div class="speaker_desc">Co-founder Zipcar</div>
-                  </div>
-              </a>
-          </div>
-          <br class="clear">
-      </div>
-  </div>
+<div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:20px;margin-bottom:60px;"><a name="speakers"></a>
+    <div class="standard_wrapper">
+        <div class="page_content_wrapper">
+            <div class="inner">
+                <div style="margin:auto;width:100%">
+                    <h2 class="ppb_title" style="text-align:center;">モデレータおよびパネリスト</h2>
+                    <div class="page_tagline" style="text-align:center;">
+                        さらにアナウンス予定です。乞うご期待！
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="ppb_speaker_grid one nopadding ">
+        <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
+            <div id="157380808945983153" data-columns="4">
+                {% for speaker in site.data.speakers %}
+                <div class="element grid one_fourth_bg">
+                    <a class="speaker_grid_link" href="./speakers/{{ speaker.id }}">
+                        <img src="./assets/images/speakers/{{ speaker.id }}.jpg" alt="{{ speaker.name }}" class="">
+                        <div class="speaker_info_wrapper">
+                            <h4>{{ speaker.name }}</h4>
+                            <div class="speaker_desc">{{ speaker.company }}</div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+                <br class="clear">
+            </div>
+        </div>
+    </div>
 </div>
