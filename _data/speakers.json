@@ -734,5 +734,21 @@
     "web": "https://arisa-fukuzaki.dev/",
     "linkedin": "https://www.linkedin.com/in/%F0%9F%A5%8B-arisa-fukuzaki-b68b51a8/",
     "instagram": ""
+  },
+  {
+    "id": "banno",
+    "company": "一般社団法人MA",
+    "name": "伴野 智樹",
+    "title": "理事",
+    "profile": "一般社団法人MAにて毎年数々のアイデアソン・ハッカソン・開発コンテストなどの企画・運営を行い、テクノロジードリブンのオープンイノベーション活動・共創活動を支援している。\nまた、日本初のプロトタイピングスクール「プロトアウトスタジオ」では、プログラムディレクターを担当し、プロトタイピング人材を育成することに奔走中。\nフリーランスとしてはアイディエーション領域のワークショップで、様々な企業の事業開発・組織課題解決に取り組む。\n",
+    "session": "rural-community",
+    "moderator": "",
+    "panelist": "true",
+    "twitter": "https://twitter.com/about40man",
+    "github": "",
+    "facebook": "https://www.facebook.com/tomoki.banno",
+    "web": "",
+    "linkedin": "",
+    "instagram": ""
   }
 ]
