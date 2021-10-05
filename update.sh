@@ -11,9 +11,11 @@ git pull
 sh getData.sh
 git add .
 git commit -m "Auto update"
-git push
+MESSAGE=git push
 
-docker run --rm --volume="$PWD:/srv/jekyll" jekyll/jekyll jekyll build
-
-npx gh-pages -d _site
+if [$MESSAGE = "Everything up-to-date"]; then
+else
+    docker run --rm --volume="$PWD:/srv/jekyll" jekyll/jekyll jekyll build
+    npx gh-pages -d _site
+fi
 
