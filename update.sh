@@ -11,7 +11,7 @@ git pull
 sh getData.sh
 git add .
 git commit -m "Auto update"
-MESSAGE=git push
+MESSAGE=`git push`
 
 if [$MESSAGE = "Everything up-to-date"]; then
     echo "Clean"
