@@ -5,3 +5,5 @@ sh getData.sh
 git add .
 git commit -m "Auto update"
 git push
+
+npm run deploy
