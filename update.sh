@@ -13,7 +13,7 @@ git add .
 git commit -m "Auto update"
 MESSAGE=`git push`
 
-if [$MESSAGE = "Everything up-to-date"]; then
+if [ $MESSAGE = "Everything up-to-date" ]; then
     echo "Clean"
 else
     docker run --rm --volume="$PWD:/srv/jekyll" jekyll/jekyll jekyll build
