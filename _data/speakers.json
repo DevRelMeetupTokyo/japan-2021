@@ -750,5 +750,37 @@
     "web": "",
     "linkedin": "",
     "instagram": ""
+  },
+  {
+    "id": "akagawa",
+    "company": "株式会社grooves",
+    "name": "赤川朗",
+    "title": "ForkwellグループDevRelチーム責任者",
+    "profile": "2011年に grooves 新卒として入社し、2015年より Forkwell 事業部に異動し、マーケティング部門の立ち上げ、エンジニアチームのマネージャー、プロダクトマネージャーを経て、2017年4月より Forkwell の事業責任者に就任。事業部ビジョンの浸透、セールス・プロダクト・エンジニア組織のマネジメントを主導。2021年9月より事業責任者を離れ、同事業部のDevRelチームの立ち上げに専念。\n2万人以上が参加した ITエンジニア向けのオンライン勉強会Infra Studyなどを主催。",
+    "session": "hiring",
+    "moderator": "true",
+    "panelist": "",
+    "twitter": "",
+    "github": "",
+    "facebook": "",
+    "web": "https://portfolio.forkwell.com/@akira.akagawa",
+    "linkedin": "",
+    "instagram": ""
+  },
+  {
+    "id": "wataru",
+    "company": "株式会社ウフル",
+    "name": "山崎　亘",
+    "title": "プロダクト マーケティング マネージャー",
+    "profile": "(株)ウフルで、ローコード/ノーコード開発ツール製品「enebular」のプロダクト･マーケティングとDevRelを担当。前職はシリコンバレーのITベンダーの日本支社で開発者向けマーケティングを担当。",
+    "session": "media",
+    "moderator": "true",
+    "panelist": "",
+    "twitter": "https://twitter.com/wyamazak",
+    "github": "",
+    "facebook": "https://fb.me/wyamazak",
+    "web": "",
+    "linkedin": "https://www.linkedin.com/in/wyamazak",
+    "instagram": ""
   }
 ]

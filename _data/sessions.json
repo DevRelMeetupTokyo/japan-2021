@@ -2,7 +2,7 @@
   {
     "id": "media",
     "theme": "メディア",
-    "moderator": "none",
+    "moderator": "wataru",
     "panelist1": "takahashi",
     "panelist2": "yamashiro",
     "panelist3": "none",
@@ -22,7 +22,7 @@
   {
     "id": "hiring",
     "theme": "採用",
-    "moderator": "none",
+    "moderator": "akagawa",
     "panelist1": "ai",
     "panelist2": "rina",
     "panelist3": "none",
