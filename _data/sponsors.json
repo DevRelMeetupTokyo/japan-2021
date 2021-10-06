@@ -5,5 +5,12 @@
     "level": "シルバー",
     "size": "2",
     "url": "https://careers.fril.jp/"
+  },
+  {
+    "id": "codezine",
+    "name": "CodeZine",
+    "level": "メディア",
+    "size": "2",
+    "url": "https://codezine.jp/"
   }
 ]
