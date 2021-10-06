@@ -837,7 +837,7 @@
     "name": "後迫 孝",
     "title": "Fan & Community Producer / Engineer Manager",
     "profile": "サイボウズの情シスで社内システムの開発を経験後、2009年からkintoneのPMとして業務部門とエンジニアに使われる業務システムサービスのリリースを経験。kintoneのキーワードである ”エコシステム促進” を遂行すべく、2013年に現在のDevRel（デベロッパーマーケティング）の部門を立ち上げて現在も遂行中。  cybozu developer network の技術コミュニティを基盤に、社外のkintoneエバンジェリストと一緒に全国各地でイベント開催・登壇・協賛、勉強会企画して鋭意活動中。時にはコーディングも行う。2020年4月、東京から故郷の九州に移住し、釣りや家庭菜園を楽しんでいる。",
-    "session": "",
+    "session": "developer-contest",
     "moderator": "",
     "panelist": "",
     "twitter": "https://twitter.com/ushiron",
@@ -869,7 +869,7 @@
     "name": "森重和春",
     "title": "日経クロステック IT・先端技術編集長",
     "profile": "1996年、日経BP入社。日経 Linux、日経NETWORK、日経 SYSTEMS編集長を歴任。現在、 日経クロステック IT・先端技術編集長",
-    "session": "",
+    "session": "media",
     "moderator": "",
     "panelist": "true",
     "twitter": "",
