@@ -839,7 +839,7 @@
     "profile": "サイボウズの情シスで社内システムの開発を経験後、2009年からkintoneのPMとして業務部門とエンジニアに使われる業務システムサービスのリリースを経験。kintoneのキーワードである ”エコシステム促進” を遂行すべく、2013年に現在のDevRel（デベロッパーマーケティング）の部門を立ち上げて現在も遂行中。  cybozu developer network の技術コミュニティを基盤に、社外のkintoneエバンジェリストと一緒に全国各地でイベント開催・登壇・協賛、勉強会企画して鋭意活動中。時にはコーディングも行う。2020年4月、東京から故郷の九州に移住し、釣りや家庭菜園を楽しんでいる。",
     "session": "developer-contest",
     "moderator": "",
-    "panelist": "",
+    "panelist": "true",
     "twitter": "https://twitter.com/ushiron",
     "github": "",
     "facebook": "https://www.facebook.com/takashi.ushirosako",
@@ -848,12 +848,12 @@
     "instagram": ""
   },
   {
-    "id": "kahiro",
+    "id": "kazumi",
     "company": "Microsoft",
     "name": "Kazumi Hirose",
     "title": "Azure Senior Product Manager / Azure Subject Matter Expert",
     "profile": "Microsoft で Developer Relations をしている。普段はAzureの領域技術専門家も務めており、様々な顧客と一緒に設計や使い方などの指導、最近は10年近く経過したパブリッククラウドの先生役であちこちで学習コンテンツの展開と企画開催とトレーナー役としても活動している。",
-    "session": "",
+    "session": "education",
     "moderator": "",
     "panelist": "true",
     "twitter": "https://twitter.com/kazumihirose",
