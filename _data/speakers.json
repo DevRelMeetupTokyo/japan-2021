@@ -798,5 +798,37 @@
     "web": "",
     "linkedin": "",
     "instagram": ""
+  },
+  {
+    "id": "nishiuma",
+    "company": "日本経済新聞社",
+    "name": "西馬 一郎",
+    "title": "インフラエンジニア/エンジニア採用担当",
+    "profile": "2002年に日本経済新聞社に入社。日経電子版の立ち上げ時のインフラ構築メンバーでその後クラウド移行などを担当した。現在はデジタル事業でエンジニア採用担当をしながら、社内DevRel活動などを通じて組織の強化に努めている。コミュニティ活動では、プロジェクトマネジメントのコミュニティJBUGで、年次カンファレンス Backlog World 2020を運営委員長の立場で開催した。昭和52年生まれ。兵庫県出身。銭湯サウナが大好き。",
+    "session": "cloud-ug",
+    "moderator": "true",
+    "panelist": "",
+    "twitter": "https://twitter.com/beppu01",
+    "github": "",
+    "facebook": "",
+    "web": "https://www.wantedly.com/id/nishiuma",
+    "linkedin": "",
+    "instagram": ""
+  },
+  {
+    "id": "yoshidumi",
+    "company": "クラウドエース株式会社",
+    "name": "吉積礼敏",
+    "title": "会長",
+    "profile": "GCPの専業CIerであるクラウドエースの会長\nGCPUG発起人の一人、GCPの公認トレーナー、徳島県出身\n元アクセンチュアのインフラ屋\nChromebookを日本一長時間使っていると自己認識\nGCPの資格は9個保持",
+    "session": "",
+    "moderator": "",
+    "panelist": "true",
+    "twitter": "https://twitter.com/yoshidumi",
+    "github": "",
+    "facebook": "https://fb.me/ayatoshi.yoshidumi",
+    "web": "",
+    "linkedin": "ayatoshi-yoshidumi-28594612",
+    "instagram": ""
   }
 ]
