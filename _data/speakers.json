@@ -878,5 +878,21 @@
     "web": "",
     "linkedin": "https://www.linkedin.com/in/shion-k-28887b74/",
     "instagram": ""
+  },
+  {
+    "id": "atsumi",
+    "company": "一般社団法人日本クラウドセキュリティアライアンス",
+    "name": "渥美俊英",
+    "title": "副会長",
+    "profile": "40年程SIerで金融システム開発に従事、後半は技術統括部長。定年退職後AWSJに入社、エンタープライズエバンジェリストとして金融や大手企業のクラウド推進を担う。今は数社の顧問、業界団体で変わらずクラウド推進に注力、66歳。2000年頃からエンジニアのOSSコミュニティ活動に関心を持ち、JAWS-UGには黎明期から参加、毎年あちこちに登壇。現在はFin-JAWS(金融)運営メンバ、JAWS-UG運営事務局の監査役、チームとしてJAWS Samurai 2021表彰。#クラウドで日本をイノベーション\n",
+    "session": "cloud-ug",
+    "moderator": "",
+    "panelist": "true",
+    "twitter": "",
+    "github": "",
+    "facebook": "https://www.facebook.com/toshihide.atsumi",
+    "web": "",
+    "linkedin": "",
+    "instagram": ""
   }
 ]
