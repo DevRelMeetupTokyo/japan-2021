@@ -894,5 +894,21 @@
     "web": "",
     "linkedin": "",
     "instagram": ""
+  },
+  {
+    "id": "ezawa",
+    "company": "BMXUG(IBM Cloud Users Group) ",
+    "name": "江澤　美保",
+    "title": "",
+    "profile": ".NET系テクノロジを使った企業向けWebポータル製品開発、大規模事務管理の海外移管プロジェクト、企業向け決済サービスのフィールドエンジニア等を経て先端技術（人工知能・コミュニケーションロボット）分野を専門とする法人営業に転向。現在はコンサルタント・エンジニアとして、企業へのAI導入支援を行う。\n2019-2021年IBM Champion。\n日本ソフトウェア学会　機械学習工学研究会　組織運営委員\n共著：「現場で使える！Python自然言語処理入門」「現場で使える！Watson開発入門」（翔泳社）",
+    "session": "cloud-ug",
+    "moderator": "",
+    "panelist": "true",
+    "twitter": "",
+    "github": "",
+    "facebook": "https://www.facebook.com/miho.ezawa",
+    "web": "",
+    "linkedin": "http://linkedin.com/in/miho-ezawa-8a3403a8",
+    "instagram": ""
   }
 ]
