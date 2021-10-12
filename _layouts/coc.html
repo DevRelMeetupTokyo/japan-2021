@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US" data-menu="leftalign">
+<!-- grandconference/  22 Nov 2019 03:46:25 GMT -->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <title>行動規範 - {{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ site.url }}assets/images/ogp/{{ page.id }}.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ page.speaker }} - {{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:card" content="Summary with Large Image" />
+    <meta name="twitter:site" content="@DevRelTokyo" />
+    {% include css.html %}
+</head>
+
+<body class="speaker-template-default single single-speaker postid-138 woocommerce-no-js">
+    {% include hidden.html %}
+    {% include header_menu.html %}
+    
+    <div id="page_content_wrapper">
+        <div class="inner">
+            <!-- Begin main content -->
+            <div class="inner_wrapper">
+                <div class="sidebar_content full_width">
+                    <!-- Begin each post -->
+                    <div id="post-138" class="post-138 speaker type-speaker status-publish has-post-thumbnail hentry">
+                        <div class="post_wrapper">
+                            <div class="post_content_wrapper">
+                                {{ content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End main content -->
+        </div>
+        <br class="clear" />
+        <br/>
+    </div>
+    {% include footer.html %}
+    {% include script.html %}
+</body>
+</html>
