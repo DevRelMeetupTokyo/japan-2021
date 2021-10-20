@@ -12,26 +12,46 @@
 </div>
 
 <div id="page_content_wrapper" class="">
-  <div class="inner">
-      <div class="inner_wrapper nopadding">
-          <div id="page_main_content" class="sidebar_content full_width nopadding fixed_column">
-             <div id="portfolio_filter_wrapper" class="gallery four_cols portfolio-content section content clearfix" data-columns="4">
-                {% for sponsor in site.data.sponsors %}
-                    <div class="element grid classic4_cols">
-                        <div class="one_fourth gallery4 static filterable gallery_type animated1" data-id="post-1">
-                            <a data-caption="" class="fancy-gallery" href="{{ sponsor.url }}" target="_blank">
-                                <img src="assets/images/sponsors/{{ sponsor.id }}.png" alt="" />
-                                <p style="text-align: center;">
-                                    {{ sponsor.name }}
-                                </p>
-                            </a>
+    <div class="inner">
+        <div class="inner_wrapper nopadding">
+            <div id="page_main_content" class="sidebar_content full_width nopadding fixed_column">
+                <div id="portfolio_filter_wrapper" class="gallery three_cols portfolio-content section content clearfix" data-columns="3">
+                    {% assign sponsors = site.data.sponsors | where: "size", 3 %}
+                    {% for sponsor in  sponsors %}
+                        <div class="element grid classic3_cols">
+                            <div class="one_third gallery3 static filterable gallery_type animated1" data-id="post-1">
+                                <a data-caption="" class="fancy-gallery" href="{{ sponsor.url }}" target="_blank">
+                                    <img src="assets/images/sponsors/{{ sponsor.id }}.png" alt="" />
+                                    <p style="text-align: center;">
+                                        {{ sponsor.name }}
+                                    </p>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                {% endfor %}
+                    {% endfor %}
+                </div>
+
+                <div id="portfolio_filter_wrapper" class="gallery four_cols portfolio-content section content clearfix" data-columns="4">
+                    {% assign sponsors = site.data.sponsors | where: "size", 2 %}
+                    {% for sponsor in sponsors %}
+                        <div class="element grid classic4_cols">
+                            <div class="one_fourth gallery4 static filterable gallery_type animated1" data-id="post-1">
+                                <a data-caption="" class="fancy-gallery" href="{{ sponsor.url }}" target="_blank">
+                                    <img src="assets/images/sponsors/{{ sponsor.id }}.png" alt="" />
+                                    <p style="text-align: center;">
+                                        {{ sponsor.name }}
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
             </div>
         </div>
+    </div>
 
-      </div>
-  </div>
-  <br class="clear" />
+
+
+    <p class="clear"></p>
 </div>

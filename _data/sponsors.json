@@ -1,19 +1,5 @@
 [
   {
-    "id": "rakuma",
-    "name": "楽天グループ ラクマ",
-    "level": "シルバー",
-    "size": "2",
-    "url": "https://careers.fril.jp/"
-  },
-  {
-    "id": "codezine",
-    "name": "CodeZine",
-    "level": "メディア",
-    "size": "2",
-    "url": "https://codezine.jp/"
-  },
-  {
     "id": "microsoft",
     "name": "Microsoft",
     "level": "ゴールド",
@@ -26,5 +12,19 @@
     "level": "ゴールド",
     "size": "3",
     "url": "https://outsyste.ms/devreljapanconf"
+  },
+  {
+    "id": "rakuma",
+    "name": "楽天グループ ラクマ",
+    "level": "シルバー",
+    "size": "2",
+    "url": "https://careers.fril.jp/"
+  },
+  {
+    "id": "codezine",
+    "name": "CodeZine",
+    "level": "メディア",
+    "size": "2",
+    "url": "https://codezine.jp/"
   }
 ]
