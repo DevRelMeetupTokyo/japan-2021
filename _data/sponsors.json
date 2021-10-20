@@ -18,6 +18,13 @@
     "name": "Microsoft",
     "level": "ゴールド",
     "size": "3",
-    "url": ""
+    "url": "https://azure.microsoft.com/ja-jp/"
+  },
+  {
+    "id": "outsystems",
+    "name": "OutSystems",
+    "level": "ゴールド",
+    "size": "3",
+    "url": "https://outsyste.ms/devreljapanconf"
   }
 ]
