@@ -12,5 +12,12 @@
     "level": "メディア",
     "size": "2",
     "url": "https://codezine.jp/"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "level": "ゴールド",
+    "size": "3",
+    "url": ""
   }
 ]
