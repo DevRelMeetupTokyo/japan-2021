@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" data-menu="leftalign">
+{% assign speaker = site.data.speakers | find: "id", page.id %}
+{% assign session = site.data.sessions | find: "id", speaker.session %}
 <!-- grandconference/  22 Nov 2019 03:46:25 GMT -->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <title>{{ page.speaker }} - {{ site.title }}</title>
@@ -8,16 +10,15 @@
     <meta name="format-detection" content="telephone=no">
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:image" content="{{ site.url }}assets/images/ogp/{{ page.id }}.jpg" />
+    <meta property="og:image" content="{{ site.url }}assets/images/ogp/{{ speaker.session }}.jpg" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ page.speaker }} - {{ site.title }}" />
     <meta property="og:description" content="{{ site.description }}" />
-    <meta name="twitter:card" content="Summary with Large Image" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@DevRelTokyo" />
     {% include css.html %}
 </head>
 
-{% assign speaker = site.data.speakers | find: "id", page.id %}
 
 <body class="speaker-template-default single single-speaker postid-138 woocommerce-no-js">
     {% include hidden.html %}
@@ -99,9 +100,9 @@
                         </div>
                     </div>
                     <!-- End each post -->
-                    {% assign session = site.data.sessions | find: "id", speaker.session %}
                     <div class="speaker_session_wrapper themeborder">
-                        <h2 class="title">セッション: {{ session.theme }}</h2>
+                        <h2 class="title">セッションテーマ: {{ session.theme }}</h2>
+                        <h3 style="padding-top: 1em; padding-bottom: 1em;">{{ session.start }}〜{{ session.end }}: トラック{{ session.track }}</h3>
                         {% include session_list.html session=session %}
                     </div>
                 </div>
