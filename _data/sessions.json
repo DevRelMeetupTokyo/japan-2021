@@ -10,7 +10,8 @@
     "people": "4",
     "start": "13:00",
     "end": "14:00",
-    "track": "A"
+    "track": "A",
+    "title": "トークテーマ：ノーコード・ローコード"
   },
   {
     "id": "rural-community",
@@ -23,7 +24,8 @@
     "people": "4",
     "start": "13:00",
     "end": "14:00",
-    "track": "B"
+    "track": "B",
+    "title": "トークテーマ：地域開発者コミュニティ"
   },
   {
     "id": "writing",
@@ -36,7 +38,8 @@
     "people": "4",
     "start": "13:00",
     "end": "14:00",
-    "track": "C"
+    "track": "C",
+    "title": "トークテーマ：ライティング (Blog / Doc)"
   },
   {
     "id": "xr",
@@ -49,7 +52,22 @@
     "people": "4",
     "start": "14:00",
     "end": "15:00",
-    "track": "A"
+    "track": "A",
+    "title": "トークテーマ：xR"
+  },
+  {
+    "id": "sponsor",
+    "theme": "ブースツアー&スポンサーセッション",
+    "moderator": "",
+    "panelist1": "",
+    "panelist2": "",
+    "panelist3": "",
+    "panelist4": "",
+    "people": "",
+    "start": "",
+    "end": "",
+    "track": "",
+    "title": ""
   },
   {
     "id": "media",
@@ -62,7 +80,8 @@
     "people": "4",
     "start": "14:00",
     "end": "15:00",
-    "track": "C"
+    "track": "C",
+    "title": "トークテーマ：メディア"
   },
   {
     "id": "education",
@@ -75,7 +94,8 @@
     "people": "4",
     "start": "15:45",
     "end": "16:45",
-    "track": "A"
+    "track": "A",
+    "title": "トークテーマ：資格/教育"
   },
   {
     "id": "social",
@@ -88,7 +108,8 @@
     "people": "4",
     "start": "15:45",
     "end": "16:45",
-    "track": "B"
+    "track": "B",
+    "title": "トークテーマ：ソーシャル（中の人）"
   },
   {
     "id": "domestic-devrel",
@@ -101,7 +122,8 @@
     "people": "5",
     "start": "15:45",
     "end": "16:45",
-    "track": "C"
+    "track": "C",
+    "title": "トークテーマ：内資DevRel"
   },
   {
     "id": "developer-contest",
@@ -114,7 +136,8 @@
     "people": "4",
     "start": "16:45",
     "end": "17:45",
-    "track": "A"
+    "track": "A",
+    "title": "トークテーマ：開発者コンテスト"
   },
   {
     "id": "woman-evangelist",
@@ -127,7 +150,8 @@
     "people": "4",
     "start": "16:45",
     "end": "17:45",
-    "track": "B"
+    "track": "B",
+    "title": "トークテーマ：女性エバンジェリスト"
   },
   {
     "id": "foreign-devrel",
@@ -140,7 +164,8 @@
     "people": "4",
     "start": "16:45",
     "end": "17:45",
-    "track": "C"
+    "track": "C",
+    "title": "トークテーマ：外資DevRel"
   },
   {
     "id": "cloud-ug",
@@ -153,7 +178,8 @@
     "people": "4",
     "start": "17:45",
     "end": "18:45",
-    "track": "A"
+    "track": "A",
+    "title": "トークテーマ：クラウドUG"
   },
   {
     "id": "virtual-space",
@@ -166,7 +192,8 @@
     "people": "4",
     "start": "17:45",
     "end": "18:45",
-    "track": "B"
+    "track": "B",
+    "title": "トークテーマ：バーチャルスペース・コミュニケーションツール"
   },
   {
     "id": "hiring",
@@ -179,6 +206,7 @@
     "people": "4",
     "start": "17:45",
     "end": "18:45",
-    "track": "C"
+    "track": "C",
+    "title": "トークテーマ：採用"
   }
 ]
