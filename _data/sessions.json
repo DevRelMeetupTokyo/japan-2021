@@ -58,16 +58,16 @@
   {
     "id": "sponsor",
     "theme": "ブースツアー&スポンサーセッション",
-    "moderator": "",
+    "moderator": "atsushi",
     "panelist1": "",
     "panelist2": "",
     "panelist3": "",
     "panelist4": "",
-    "people": "",
-    "start": "",
-    "end": "",
-    "track": "",
-    "title": ""
+    "people": "3",
+    "start": "14:00",
+    "end": "15:00",
+    "track": "B",
+    "title": "ブースツアー&スポンサーセッション"
   },
   {
     "id": "media",
