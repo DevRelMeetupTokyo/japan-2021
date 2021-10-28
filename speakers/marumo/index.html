@@ -141,6 +141,8 @@
                                   <ul id="main_menu" class="nav">
                                     <li class="menu-item current-menu-item menu-item-has-children"><a href="./">Home</a>
                                     </li>
+                                    <li class="menu-item menu-item-has-children"><a href="./#sessions">セッション</a>
+                                    </li>
                                     <li class="menu-item menu-item-has-children"><a href="./#speakers">スピーカー</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children"><a href="./#sponsors">スポンサー</a>
@@ -409,12 +411,8 @@
 <script src="/japan-2021/js/plugins/jquery.sticky-kit.min.js"></script>
 <script src="/japan-2021/js/plugins/jquery.stellar.min.js"></script>
 <script src="/japan-2021/js/plugins/jquery.cookie.js"></script>
-<script src="/japan-2021/js/plugins/custom_plugins.js"></script>
-<script src="/japan-2021/js/plugins/custom.js"></script>
-<script src="/japan-2021/js/plugins/custom_onepage.js"></script>
-<script src="/japan-2021/js/plugins/jquery.countdown.js"></script>
 <script src="/japan-2021/js/plugins/imagesloaded.min.js"></script>
-<script src="/japan-2021/js/plugins/masonry.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="/japan-2021/js/plugins/jarallax-video.js"></script>
 <script src="/japan-2021/js/plugins/jquery.cookie.js"></script>
 <script src="/japan-2021/js/plugins/custom_clock.js"></script>
@@ -457,53 +455,13 @@
         }
     };
 </script>
-<script>
-    (function() {
-        function addEventListener(element, event, handler) {
-            if (element.addEventListener) {
-                element.addEventListener(event, handler, false);
-            } else if (element.attachEvent) {
-                element.attachEvent("on" + event, handler);
-            }
-        }
-
-        function maybePrefixUrlField() {
-            if (this.value.trim() !== "" && this.value.indexOf("http") !== 0) {
-                this.value = "http://" + this.value;
-            }
-        }
-
-        var urlFields = document.querySelectorAll(".mc4wp-form input[type="url"]");
-        if (urlFields && urlFields.length > 0) {
-            for (var j = 0; j < urlFields.length; j++) {
-                addEventListener(urlFields[j], "blur", maybePrefixUrlField);
-            }
-        } /* test if browser supports date fields */
-        var testInput = document.createElement("input");
-        testInput.setAttribute("type", "date");
-        if (testInput.type !== "date") {
-
-            /* add placeholder & pattern to all date fields */
-            var dateFields = document.querySelectorAll(".mc4wp-form input[type="date"]");
-            for (var i = 0; i < dateFields.length; i++) {
-                if (!dateFields[i].placeholder) {
-                    dateFields[i].placeholder = "YYYY-MM-DD";
-                }
-                if (!dateFields[i].pattern) {
-                    dateFields[i].pattern = "[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])";
-                }
-            }
-        }
-
-    })();
-</script>
 <script type="text/javascript">
     function revslider_showDoubleJqueryError(sliderID) {
         var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
         errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
         errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
         errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-        errorMessage = "<span style="font-size:16px;color:#BC0C06;">" + errorMessage + "</span>";
+        errorMessage = "<span style=\"font-size:16px;color:#BC0C06;\">" + errorMessage + "</span>";
         jQuery(sliderID).show().html(errorMessage);
     }
 </script>    
