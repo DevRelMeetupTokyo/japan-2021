@@ -2071,7 +2071,6 @@ body.single-post #page_content_wrapper, body.single-attachment #page_content_wra
 {
 	clear: both;
 	position: relative;
-	float: left;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -6324,8 +6323,8 @@ doesnotexist:-o-prefocus, div.thumb_content {
 .one_half
 {
 	float: left;
-	width: 48%;
-	margin-right: 3.5%;
+	width: 30%;
+	margin-right: 3%;
 	box-sizing: border-box;
 }
 
@@ -7291,7 +7290,7 @@ body.single-speaker #page_caption .speaker_website
 
 .scheduleday_wrapper.one_half
 {
-	width: calc(50% - 20px);
+	width: calc(32% - 10px);
 }
 
 .scheduleday_wrapper li.scheduleday_title
@@ -9146,4 +9145,8 @@ body.woocommerce-order-received .woocommerce
 
 .input1 {
     width: 100%;
+}
+
+.ppb_session_filterable h3 {
+	padding-bottom: 2em;
 }

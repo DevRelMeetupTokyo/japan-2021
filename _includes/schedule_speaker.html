@@ -1,0 +1,12 @@
+{% if include.speaker %}
+  {% assign speaker = include.speaker %}
+  <div class="session_speaker_thumb">
+    <img src="./assets/images/speakers/{{ speaker.id }}.jpg" alt="{{ speaker.name }}" class="">
+  </div>
+  <div class="session_content has_speaker_thumb">
+    <div class="session_speakers">
+        <strong><a href="./speakers/{{ speaker.id }}">{{ speaker.name }}</a></strong>@{{ speaker.company }}
+    </div>
+  </div>
+  <br class="clear">
+{% endif %}

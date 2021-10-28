@@ -1,0 +1,32 @@
+<ul class="scheduleday_wrapper themeborder one_half">
+    {% assign session=include.session %}
+    <li class="scheduleday_title">
+        <div class="scheduleday_title_icon">
+            <span class="ti-calendar"></span>
+        </div>
+        <div class="scheduleday_title_content">
+            <h4>トラック{{ session.track }}</h4>
+        </div>
+    </li>
+    <li class="themeborder">
+        <div class="session_content_wrapper">
+            <div class="session_content">
+                <div class="session_title">
+                    <h6>{{ session.title }}</h6>
+                </div>
+            </div>
+            {% assign moderator = site.data.speakers | find: "id", session.moderator %}
+            <div><strong>モデレーター</strong></div>
+            {% include schedule_speaker.html speaker=moderator %}
+            {% assign speaker = site.data.speakers | find: "id", session.panelist1 %}
+            <div><strong>パネリスト</strong></div>
+            {% include schedule_speaker.html speaker=speaker %}
+            {% assign speaker = site.data.speakers | find: "id", session.panelist2 %}
+            {% include schedule_speaker.html speaker=speaker %}
+            {% assign speaker = site.data.speakers | find: "id", session.panelist3 %}
+            {% include schedule_speaker.html speaker=speaker %}
+            {% assign speaker = site.data.speakers | find: "id", session.panelist4 %}
+            {% include schedule_speaker.html speaker=speaker %}
+        </div>
+    </li>
+</ul>

@@ -1,0 +1,21 @@
+<div class="one withsmallpadding ppb_header ">
+  <div class="standard_wrapper">
+      <div class="page_content_wrapper">
+          <div class="inner">
+              <div style="margin:auto;width:100%">
+                  <h5 class="ppb_title" style="text-align:center;font-size: 25px;">{{ include.time }}</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="one">
+  <div class="standard_wrapper">
+      <div class="15735685156033855">
+        {% for session in include.tracks %}
+          {% include schedule_column.html track=track session=session %}
+        {% endfor %}
+      </div>
+  </div>
+</div>
