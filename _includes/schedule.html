@@ -1,4 +1,4 @@
-<div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:60px;margin-bottom:20px;">
+<div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:60px;margin-bottom:20px;"><a name="sessions"></a>
     <div class="standard_wrapper">
         <div class="page_content_wrapper">
             <div class="inner">
@@ -16,7 +16,7 @@
         <div class="page_content_wrapper">
             <div class="inner">
                 <div style="margin:auto;width:100%">
-                    <h5 class="ppb_title" style="text-align:center;font-size: 25px;">12:30</h5>
+                    <h5 class="ppb_title" style="text-align:center;font-size: 25px;">12:00</h5>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
                 <div class="session_content_wrapper">
                     <div class="session_content">
                         <div class="session_title">
-                            <h3>オープニング&挨拶</h3>
+                            <h3>プレイベント on <a href="https://spatial.chat/" target="_blank">SpacialChat</a></h3>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,35 @@
         </ul>
     </div>
 </div>
-  
+
+<div class="one withsmallpadding ppb_header ">
+    <div class="standard_wrapper">
+        <div class="page_content_wrapper">
+            <div class="inner">
+                <div style="margin:auto;width:100%">
+                    <h5 class="ppb_title" style="text-align:center;font-size: 25px;">12:45</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="one">
+    <div class="standard_wrapper">
+        <ul class="one fullwidth" style="text-align: center; font-weight: bold; padding-bottom: 0.5em;">
+            <li class="themeborder">
+                <div class="session_content_wrapper">
+                    <div class="session_content">
+                        <div class="session_title">
+                            <h3>オープニング</h3>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
 {% assign times = "13:00,14:00" | split: "," %}
 {% for time in times %}
     {% assign tracks = site.data.sessions | where: "start", time %}
@@ -64,7 +92,7 @@
                 <div class="session_content_wrapper">
                     <div class="session_content">
                         <div class="session_title">
-                            <h3>コミュニケーションタイム</h3>
+                            <h3>コミュニケーションタイム on <a href="https://ovice.in/" target="_blank">oVice</a></h3>
                         </div>
                     </div>
                 </div>
@@ -98,7 +126,7 @@
                 <div class="session_content_wrapper">
                     <div class="session_content">
                         <div class="session_title">
-                            <h3>LT&amp;アフターパーティー</h3>
+                            <h3>LT&amp;アフターパーティー on <a href="https://jp.remo.co/" target="_blank">Remo</a></h3>
                         </div>
                     </div>
                 </div>
