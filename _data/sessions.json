@@ -11,7 +11,8 @@
     "start": "13:00",
     "end": "14:00",
     "track": "A",
-    "title": "トークテーマ：ノーコード・ローコード"
+    "title": "トークテーマ：ノーコード・ローコード",
+    "description": ""
   },
   {
     "id": "rural-community",
@@ -25,7 +26,8 @@
     "start": "13:00",
     "end": "14:00",
     "track": "B",
-    "title": "トークテーマ：地域開発者コミュニティ"
+    "title": "トークテーマ：地域開発者コミュニティ",
+    "description": ""
   },
   {
     "id": "writing",
@@ -39,7 +41,8 @@
     "start": "13:00",
     "end": "14:00",
     "track": "C",
-    "title": "トークテーマ：ライティング (Blog / Doc)"
+    "title": "トークテーマ：ライティング (Blog / Doc)",
+    "description": ""
   },
   {
     "id": "xr",
@@ -53,7 +56,8 @@
     "start": "14:00",
     "end": "15:00",
     "track": "A",
-    "title": "トークテーマ：xR"
+    "title": "トークテーマ：xR",
+    "description": ""
   },
   {
     "id": "sponsor",
@@ -67,7 +71,8 @@
     "start": "14:00",
     "end": "15:00",
     "track": "B",
-    "title": "ブースツアー&スポンサーセッション"
+    "title": "ブースツアー&スポンサーセッション",
+    "description": ""
   },
   {
     "id": "media",
@@ -81,7 +86,8 @@
     "start": "14:00",
     "end": "15:00",
     "track": "C",
-    "title": "トークテーマ：メディア"
+    "title": "トークテーマ：メディア",
+    "description": ""
   },
   {
     "id": "education",
@@ -95,7 +101,8 @@
     "start": "15:45",
     "end": "16:45",
     "track": "A",
-    "title": "トークテーマ：資格/教育"
+    "title": "トークテーマ：資格/教育",
+    "description": ""
   },
   {
     "id": "social",
@@ -109,7 +116,8 @@
     "start": "15:45",
     "end": "16:45",
     "track": "B",
-    "title": "トークテーマ：ソーシャル（中の人）"
+    "title": "トークテーマ：ソーシャル（中の人）",
+    "description": ""
   },
   {
     "id": "domestic-devrel",
@@ -123,7 +131,8 @@
     "start": "15:45",
     "end": "16:45",
     "track": "C",
-    "title": "トークテーマ：内資DevRel"
+    "title": "トークテーマ：内資DevRel",
+    "description": ""
   },
   {
     "id": "developer-contest",
@@ -137,7 +146,8 @@
     "start": "16:45",
     "end": "17:45",
     "track": "A",
-    "title": "トークテーマ：開発者コンテスト"
+    "title": "トークテーマ：開発者コンテスト",
+    "description": ""
   },
   {
     "id": "woman-evangelist",
@@ -151,7 +161,8 @@
     "start": "16:45",
     "end": "17:45",
     "track": "B",
-    "title": "トークテーマ：女性エバンジェリスト"
+    "title": "トークテーマ：女性エバンジェリスト",
+    "description": ""
   },
   {
     "id": "foreign-devrel",
@@ -165,7 +176,8 @@
     "start": "16:45",
     "end": "17:45",
     "track": "C",
-    "title": "トークテーマ：外資DevRel"
+    "title": "トークテーマ：外資DevRel",
+    "description": ""
   },
   {
     "id": "cloud-ug",
@@ -179,7 +191,8 @@
     "start": "17:45",
     "end": "18:45",
     "track": "A",
-    "title": "トークテーマ：クラウドユーザーグループ"
+    "title": "トークテーマ：クラウドユーザーグループ",
+    "description": ""
   },
   {
     "id": "virtual-space",
@@ -193,7 +206,8 @@
     "start": "17:45",
     "end": "18:45",
     "track": "B",
-    "title": "トークテーマ：バーチャルスペース・コミュニケーションツール"
+    "title": "トークテーマ：バーチャルスペース・コミュニケーションツール",
+    "description": ""
   },
   {
     "id": "hiring",
@@ -207,6 +221,7 @@
     "start": "17:45",
     "end": "18:45",
     "track": "C",
-    "title": "トークテーマ：採用"
+    "title": "トークテーマ：採用",
+    "description": ""
   }
 ]
