@@ -13,6 +13,12 @@
             <div class="session_content">
                 <div class="session_title">
                     <h6><a href="./sessions/{{ session.id }}/">{{ session.title }}</a></h6>
+                    <a href="{{ session.gcal }}" target="_blank">
+                        <i class="fab fa-google"></i> Googleカレンダーに登録する
+                    </a><br />
+                    <a href="./sessions/{{session.id}}.ics" target="_blank">
+                        <i class="fa fa-calendar"></i> icsファイルのダウンロード
+                    </a>
                 </div>
             </div>
             {% assign moderator = site.data.speakers | find: "id", session.moderator %}

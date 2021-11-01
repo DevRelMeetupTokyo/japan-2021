@@ -64,6 +64,7 @@ title: #{session['title']}
 gcal: #{gcal}
 ---
   EOS
+  session['gcal'] = gcal
   f = open("./sessions/#{session['id']}.md", 'w')
   f.write(content)
   f.close
@@ -73,3 +74,7 @@ gcal: #{gcal}
   f.close
   
 end
+
+f = open('./_data/sessions.json', 'w')
+f.write json.to_json
+f.close
