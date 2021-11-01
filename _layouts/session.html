@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US" data-menu="leftalign">
+{% assign session = site.data.sessions | find: "id", page.id %}
+<!-- grandconference/  22 Nov 2019 03:46:25 GMT -->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <title>{{ session.title }} - {{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:url" content="{{ site.url }}sessions/{{ session.id }}/" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ site.url }}assets/images/ogp/{{ session.id }}.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ session.title }} - {{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@DevRelTokyo" />
+    {% include css.html %}
+</head>
+
+
+<body class="speaker-template-default single single-speaker postid-138 woocommerce-no-js">
+    {% include hidden.html %}
+    {% include header_menu.html %}
+    
+    <div id="page_caption" class="  ">
+        <div class="page_title_wrapper">
+            <div class="standard_wrapper">
+                <div class="speaker_thumbnail"><img src="/japan-2021/assets/images/speakers/{{ speaker.id }}.jpg" alt="" /></div>
+                <div class="page_title_inner">
+                    <div class="page_title_content">
+                        <h1>{{ session.title }}</h1>
+                        <div class="page_tagline">
+                            {{ session.description }}
+                        </div>
+                    </div>
+                </div>
+                <br class="clear" />
+            </div>
+        </div>
+    </div>
+    <div id="page_content_wrapper">
+        <div class="inner">
+            <!-- Begin main content -->
+            <div class="inner_wrapper">
+                <div class="sidebar_content full_width">
+                    <!-- Begin each post -->
+                    <div id="post-138" class="post-138 speaker type-speaker status-publish has-post-thumbnail hentry">
+                        <div class="post_wrapper">
+                            <div class="post_content_wrapper">
+                              <div class="speaker_social">
+                                <div class="social_wrapper shortcode">
+                                  <a href="{{ page.gcal }}" target="_blank">
+                                    <h4><i class="fab fa-google"></i> カレンダーに登録する</h4>
+                                  </a>
+                                  <a href="../{{page.id}}.ics" target="_blank">
+                                    <h4><i class="fa fa-calendar"></i> カレンダーに登録する</h4>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End each post -->
+                    <div class="speaker_session_wrapper themeborder">
+                        <h3 style="padding-top: 1em; padding-bottom: 1em;">{{ session.start }}〜{{ session.end }}: トラック{{ session.track }}</h3>
+                        {% include session_list.html session=session %}
+                    </div>
+                </div>
+            </div>
+            <!-- End main content -->
+        </div>
+        <br class="clear" />
+        <br/>
+    </div>
+    {% include footer.html %}
+    {% include script.html %}
+</body>
+</html>
