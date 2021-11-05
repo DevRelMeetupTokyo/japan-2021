@@ -14,6 +14,13 @@
     "url": "https://outsyste.ms/devreljapanconf"
   },
   {
+    "id": "hatena",
+    "name": "はてな",
+    "level": "ゴールド",
+    "size": "3",
+    "url": "https://ja.mackerel.io/"
+  },
+  {
     "id": "rakuma",
     "name": "楽天グループ ラクマ",
     "level": "シルバー",
