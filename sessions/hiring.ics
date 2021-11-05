@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20211105T025012Z
-UID:b1cf160f-8546-4093-8cca-64b2cc6b5cd5
+DTSTAMP:20211105T025512Z
+UID:bcae9ffa-ea4f-4641-93c4-53de413eafb9
 DTSTART:20211113T174500
 DTEND:20211113T184500
 DESCRIPTION:トラックC / 17:45〜18:45\n\n🌟 イベント参加用URL\
@@ -18,7 +18,7 @@ DESCRIPTION:トラックC / 17:45〜18:45\n\n🌟 イベント参加用URL\
  ーター：赤川朗@株式会社grooves\n🗣 パネリスト：\n- 江
  藤　愛（Ai Eto）@CircleCI合同会社\n- 渡邉里菜(なべりな)@
  サイボウズ株式会社\n- Shion King@Stripe Japan KK\n
-SUMMARY:採用から見るDevRel関連職の面白さ at DevRel/Japan CONFE
- RENCE 2021
+SUMMARY:DevRel職の採用基準をゼロから考える at DevRel/Japan CO
+ NFERENCE 2021
 END:VEVENT
 END:VCALENDAR
