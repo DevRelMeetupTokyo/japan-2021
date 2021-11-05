@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20211105T080512Z
-UID:4fb24ff2-6424-4f47-b738-1b1afd414216
+DTSTAMP:20211105T081014Z
+UID:f5d40aed-52ec-48f7-b71a-32a1dba182cb
 DTSTART:20211113T174500
 DTEND:20211113T184500
 DESCRIPTION:トラックA / 17:45〜18:45\n\n🌟 イベント参加用URL\
@@ -19,7 +19,7 @@ DESCRIPTION:トラックA / 17:45〜18:45\n\n🌟 イベント参加用URL\
  ：\n- 吉積礼敏@クラウドエース株式会社\n- 渥美俊英@一
  般社団法人日本クラウドセキュリティアライアンス\n- 
  江澤　美保@BMXUG(IBM Cloud Users Group) \n
-SUMMARY:クラウドユーザーグループの現状と今後 at DevRel/Ja
- pan CONFERENCE 2021
+SUMMARY:クラウドユーザーグループに聞く、コミュニティ
+ を盛り上げる秘訣 at DevRel/Japan CONFERENCE 2021
 END:VEVENT
 END:VCALENDAR
