@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20211105T080012Z
-UID:f4b47cae-73d0-4573-9423-0d87e549404d
+DTSTAMP:20211105T080512Z
+UID:afdb83aa-df1d-41d5-b817-6f635f01ed1d
 DTSTART:20211113T164500
 DTEND:20211113T174500
 DESCRIPTION:トラックB / 16:45〜17:45\n\n🌟 イベント参加用URL\
@@ -18,7 +18,7 @@ DESCRIPTION:トラックB / 16:45〜17:45\n\n🌟 イベント参加用URL\
   モデレーター：戸倉彩@日本アイ・ビー・エム株式会社
  \n🗣 パネリスト：\n- 千代田まどか (ちょまど)@Microsoft\n
  - 横田紋奈@JFrog\n- 水田千惠@ヤフー株式会社\n
-SUMMARY:女性の開発者、エバンジェリストとしてのキャリ
- ア at DevRel/Japan CONFERENCE 2021
+SUMMARY:女性開発者のキャリアパスとしてのエバンジェリ
+ ストのススメ at DevRel/Japan CONFERENCE 2021
 END:VEVENT
 END:VCALENDAR
