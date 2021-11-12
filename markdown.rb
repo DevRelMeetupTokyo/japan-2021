@@ -4,7 +4,7 @@ sessions_json = JSON.parse(open('_data/sessions.json').read)
 speakers_json = JSON.parse(open('_data/speakers.json').read)
 
 sessions_json.each do |session|
-  puts "## #{session['theme']}"
+  puts "## [#{session['title']}](https://devrel.tokyo/japan-2021/sessions/#{session['id']})"
   moderator_id = session['moderator']
   m = {}
   if moderator_id == 'none'
