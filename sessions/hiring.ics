@@ -6,8 +6,8 @@ BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20211115T064513Z
-UID:69849a5e-ad76-4325-bf1f-3edb90b4a737
+DTSTAMP:20211115T065013Z
+UID:562e78c2-21f9-418e-a3f6-f9e3e469c875
 DTSTART:20211113T174500
 DTEND:20211113T184500
 DESCRIPTION:トラックC / 17:45〜18:45\n\n🌟 イベント参加用URL\
@@ -17,7 +17,8 @@ DESCRIPTION:トラックC / 17:45〜18:45\n\n🌟 イベント参加用URL\
  投稿（Sli.do）\nhttps://app.sli.do/event/udiacusj\n  \n🎤 モデレ
  ーター：赤川朗@株式会社grooves\n🗣 パネリスト：\n- 江
  藤　愛（Ai Eto）@CircleCI合同会社\n- 渡邉里菜(なべりな)@
- サイボウズ株式会社\n- Shion King@Stripe Japan KK\n
+ サイボウズ株式会社\n- Shion King@ストライプジャパン株
+ 式会社\n
 SUMMARY:DevRel職の採用基準をゼロから考える at DevRel/Japan CO
  NFERENCE 2021
 END:VEVENT
